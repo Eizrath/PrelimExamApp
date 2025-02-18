@@ -21,7 +21,7 @@
         <input type="text" name="last_name" placeholder="Last Name" class="border-4 border-blue-400 p-4 w-full mb-4 rounded-2xl" value="{{ old('last_name') }}">
         <input type="email" name="email" placeholder="Email" class="border-4 border-blue-400 p-4 w-full mb-4 rounded-2xl" value="{{ old('email') }}">
         <input type="text" name="phone" placeholder="Phone" class="border-4 border-blue-400 p-4 w-full mb-4 rounded-2xl" value="{{ old('phone') }}">
-        <input type="text" name="address" placeholder="Address" class="border-4 border-blue-400 p-4 w-full mb-4 rounded-2xl text-blue-500" value="{{ old('address') }}">
+        <input type="text" name="address" placeholder="Address" class="border-4 border-blue-400 p-4 w-full mb-4 rounded-2xl" value="{{ old('address') }}">
         <button type="submit" class="bg-blue-500 text-white px-16 py-4 rounded-xl">Save</button>
     </form>
 </div>
