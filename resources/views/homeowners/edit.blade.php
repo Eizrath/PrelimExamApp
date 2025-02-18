@@ -1,5 +1,7 @@
 @extends('layouts.home')
 
+<?php $title='Edit'; ?>
+
 @section('content')
 <div class="container mx-auto p-6">
     <h1 class="text-3xl font-bold mb-4">Edit Homeowner</h1>
